@@ -10,233 +10,235 @@ function winCheck() {
   btn8 = document.getElementById("btn8").textContent;
   btn9 = document.getElementById("btn9").textContent;
   let status = document.getElementById("status");
-  //player x win conditions starts
+  //Player x win conditions starts
 
   if (
     (btn1 == "x" || btn1 == "X") &&
     (btn2 == "x" || btn2 == "X") &&
     (btn3 == "x" || btn3 == "X")
   ) {
-    status.textContent = "player x won";
+    status.textContent = "Player X won";
     btn4.disabled = true;
     btn5.disabled = true;
     btn6.disabled = true;
     btn7.disabled = true;
     btn8.disabled = true;
     btn9.disabled = true;
-    window.alert("player x won");
+    window.alert("Player X won");
     disableALl();
   } else if (
-    (btn1 == "x" || btn1 == "X") &&
-    (btn2 == "x" || btn2 == "X") &&
-    (btn3 == "x" || btn3 == "X")
+    (btn4 == "x" || btn4 == "X") &&
+    (btn5 == "x" || btn5 == "X") &&
+    (btn6 == "x" || btn6 == "X")
   ) {
-    status.textContent = "player x won";
+    status.textContent = "Player X won";
     btn1.disabled = true;
     btn2.disabled = true;
     btn3.disabled = true;
     btn7.disabled = true;
     btn8.disabled = true;
     btn9.disabled = true;
-    window.alert("player x won");
+    window.alert("Player X won");
     disableALl();
   } else if (
     (btn7 == "x" || btn7 == "X") &&
     (btn8 == "x" || btn8 == "X") &&
     (btn9 == "x" || btn9 == "X")
   ) {
-    status.textContent = "player x won";
+    status.textContent = "Player X won";
     btn4.disabled = true;
     btn5.disabled = true;
     btn6.disabled = true;
     btn1.disabled = true;
     btn2.disabled = true;
     btn3.disabled = true;
-    window.alert("player x won");
+    window.alert("Player X won");
     disableALl();
   } else if (
     (btn1 == "x" || btn1 == "X") &&
     (btn5 == "x" || btn5 == "X") &&
     (btn9 == "x" || btn9 == "X")
   ) {
-    status.textContent = "player x won";
+    status.textContent = "Player X won";
     btn2.disabled = true;
     btn3.disabled = true;
     btn4.disabled = true;
     btn6.disabled = true;
     btn7.disabled = true;
     btn8.disabled = true;
-    window.alert("player x won");
+    window.alert("Player X won");
     disableALl();
-  } else if (
+  } 
+  else if (
     (btn3 == "x" || btn3 == "X") &&
-    (btn5 == "x" || btn3 == "X") &&
+    (btn5 == "x" || btn5 == "X") &&
     (btn7 == "x" || btn7 == "X")
   ) {
-    status.textContent = "player x won";
+    
+    status.textContent = "Player X won";
     btn1.disabled = true;
     btn2.disabled = true;
     btn4.disabled = true;
     btn6.disabled = true;
     btn8.disabled = true;
     btn9.disabled = true;
-    window.alert("player x won");
+    window.alert("Player X won");
     disableALl();
   } else if (
     (btn1 == "x" || btn1 == "X") &&
     (btn4 == "x" || btn4 == "X") &&
     (btn7 == "x" || btn7 == "X")
   ) {
-    status.textContent = "player x won";
+    status.textContent = "Player X won";
     btn2.disabled = true;
     btn3.disabled = true;
     btn5.disabled = true;
     btn6.disabled = true;
     btn8.disabled = true;
     btn9.disabled = true;
-    window.alert("player x won");
+    window.alert("Player X won");
     disableALl();
   } else if (
     (btn2 == "x" || btn2 == "X") &&
     (btn5 == "x" || btn5 == "X") &&
     (btn8 == "x" || btn8 == "X")
   ) {
-    status.textContent = "player x won";
+    status.textContent = "Player X won";
     btn1.disabled = true;
     btn3.disabled = true;
     btn4.disabled = true;
     btn6.disabled = true;
     btn7.disabled = true;
     btn9.disabled = true;
-    window.alert("player x won");
+    window.alert("Player X won");
     disableALl();
   } else if (
     (btn3 == "x" || btn3 == "X") &&
     (btn6 == "x" || btn6 == "X") &&
     (btn9 == "x" || btn9 == "X")
   ) {
-    status.textContent = "player x won";
+    status.textContent = "Player X won";
     btn1.disabled = true;
     btn2.disabled = true;
     btn4.disabled = true;
     btn5.disabled = true;
     btn7.disabled = true;
     btn8.disabled = true;
-    window.alert("player x won");
+    window.alert("Player X won");
     disableALl();
   }
-  //player 0 win condition starts
-  if (
+  //Player 0 win condition starts
+  else if (
     (btn1 == "o" || btn1 == "O") &&
     (btn2 == "o" || btn2 == "O") &&
     (btn3 == "o" || btn3 == "O")
   ) {
-    status.textContent = "player O won";
+    status.textContent = "Player O won";
     btn4.disabled = true;
     btn5.disabled = true;
     btn6.disabled = true;
     btn7.disabled = true;
     btn8.disabled = true;
     btn9.disabled = true;
-    window.alert("player O won");
+    window.alert("Player O won");
     disableALl();
   } else if (
-    (btn1 == "o" || btn1 == "O") &&
-    (btn2 == "o" || btn2 == "O") &&
-    (btn3 == "o" || btn3 == "O")
+    (btn4 == "o" || btn4 == "O") &&
+    (btn5 == "o" || btn5 == "O") &&
+    (btn6 == "o" || btn6 == "O")
   ) {
-    status.textContent = "player O won";
+    status.textContent = "Player O won";
     btn1.disabled = true;
     btn2.disabled = true;
     btn3.disabled = true;
     btn7.disabled = true;
     btn8.disabled = true;
     btn9.disabled = true;
-    window.alert("player O won");
+    window.alert("Player O won");
     disableALl();
   } else if (
     (btn7 == "o" || btn7 == "O") &&
     (btn8 == "o" || btn8 == "O") &&
     (btn9 == "o" || btn9 == "O")
   ) {
-    status.textContent = "player O won";
+    status.textContent = "Player O won";
     btn4.disabled = true;
     btn5.disabled = true;
     btn6.disabled = true;
     btn1.disabled = true;
     btn2.disabled = true;
     btn3.disabled = true;
-    window.alert("player O won");
+    window.alert("Player O won");
     disableALl();
   } else if (
     (btn1 == "o" || btn1 == "O") &&
     (btn5 == "o" || btn5 == "O") &&
     (btn9 == "o" || btn9 == "O")
   ) {
-    status.textContent = "player O won";
+    status.textContent = "Player O won";
     btn2.disabled = true;
     btn3.disabled = true;
     btn4.disabled = true;
     btn6.disabled = true;
     btn7.disabled = true;
     btn8.disabled = true;
-    window.alert("player O won");
+    window.alert("Player O won");
     disableALl();
   } else if (
     (btn3 == "o" || btn3 == "O") &&
     (btn5 == "o" || btn3 == "O") &&
     (btn7 == "o" || btn7 == "O")
   ) {
-    status.textContent = "player O won";
+    status.textContent = "Player O won";
     btn1.disabled = true;
     btn2.disabled = true;
     btn4.disabled = true;
     btn6.disabled = true;
     btn8.disabled = true;
     btn9.disabled = true;
-    window.alert("player O won");
+    window.alert("Player O won");
     disableALl();
   } else if (
     (btn1 == "o" || btn1 == "O") &&
     (btn4 == "o" || btn4 == "O") &&
     (btn7 == "o" || btn7 == "O")
   ) {
-    status.textContent = "player O won";
+    status.textContent = "Player O won";
     btn2.disabled = true;
     btn3.disabled = true;
     btn5.disabled = true;
     btn6.disabled = true;
     btn8.disabled = true;
     btn9.disabled = true;
-    window.alert("player O won");
+    window.alert("Player O won");
     disableALl();
   } else if (
     (btn2 == "o" || btn2 == "O") &&
     (btn5 == "o" || btn5 == "O") &&
     (btn8 == "o" || btn8 == "O")
   ) {
-    status.textContent = "player O won";
+    status.textContent = "Player O won";
     btn1.disabled = true;
     btn3.disabled = true;
     btn4.disabled = true;
     btn6.disabled = true;
     btn7.disabled = true;
     btn9.disabled = true;
-    window.alert("player O won");
+    window.alert("Player O won");
     disableALl();
   } else if (
     (btn3 == "o" || btn3 == "O") &&
     (btn6 == "o" || btn6 == "O") &&
     (btn9 == "o" || btn9 == "O")
   ) {
-    status.textContent = "player O won";
+    status.textContent = "Player O won";
     btn1.disabled = true;
     btn2.disabled = true;
     btn4.disabled = true;
     btn5.disabled = true;
     btn7.disabled = true;
     btn8.disabled = true;
-    window.alert("player O won");
+    window.alert("Player O won");
     disableALl();
   }
   //Now lets create the tie condition
@@ -258,7 +260,7 @@ function winCheck() {
     if (flag == 1) {
       status.textContent = "Player X turn";
     } else {
-      status.textContent = "player O turn";
+      status.textContent = "Player O turn";
     }
   }
 }
@@ -375,7 +377,7 @@ function flag9() {
     flag = 1;
   }
 }
-let disableALl=()=>{
+let disableALl = () => {
   document.getElementById("btn1").disabled = true;
   document.getElementById("btn2").disabled = true;
   document.getElementById("btn3").disabled = true;
@@ -385,4 +387,4 @@ let disableALl=()=>{
   document.getElementById("btn7").disabled = true;
   document.getElementById("btn8").disabled = true;
   document.getElementById("btn9").disabled = true;
-}
+};

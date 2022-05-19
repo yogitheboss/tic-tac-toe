@@ -74,8 +74,29 @@ button{
     font-family: "poppins semibold";
     transition: all 0.2s ease-in-out;
 }
+button{
+    transition: all 0.2s ease-in-out;
+}
 #reset:hover {
     color: rgba(255, 255, 255, 1);
     box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
-    scale: 1.5;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+
+  button:hover{
+      background-color: #165c76;
+      -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+
+  }
+  .status{
+      color: rgb(218, 167, 67);
+      background-color: rgb(93, 91, 89);
+      padding: 20px;
+      border-radius: 10%;
   }
