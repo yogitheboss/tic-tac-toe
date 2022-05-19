@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tie Tac Toe Game by Yogi</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1>Tic-Tac-Toe</h1>
+      </div>
+      <div class="instructions">
+        <h2>Start Game by clicking on tiles</h2>
+      </div>
+      <div class="btn-container">
+        <div class="row1">
+          <button class="buttons" id="btn1" onclick="flag1();winCheck()"></button>
+          <button class="buttons" id="btn2" onclick="flag2();winCheck()"></button>
+          <button class="buttons" id="btn3" onclick="flag3();winCheck()"></button>
+        </div>
+        <div class="row2">
+          <button class="buttons" id="btn4" onclick="flag4();winCheck()"></button>
+          <button class="buttons" id="btn5" onclick="flag5();winCheck()"></button>
+          <button class="buttons" id="btn6" onclick="flag6();winCheck()"></button>
+        </div>
+        <div class="row3">
+          <button class="buttons" id="btn7" onclick="flag7();winCheck()" ></button>
+          <button class="buttons" id="btn8" onclick="flag8();winCheck()"></button>
+          <button class="buttons" id="btn9" onclick="flag9();winCheck()"></button>
+        </div>
+        <div class="reset-button">
+          <button id="reset" onclick="reset()">Reset</button>
+        </div>
+        <div class="status">
+          <h2 id="status"></h2>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
